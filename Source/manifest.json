@@ -1,0 +1,31 @@
+{
+    "manifest_version" : 2 ,
+    
+    "description" : "__MSG_Extension_Description__" ,
+    "name" : "__MSG_Extension_Name__" ,
+        
+    "default_locale" : "en" ,
+    "homepage_url" : "https://github.com/BasicBrowsing/UserAgent" ,
+    "version" : "1.0.0" ,
+    
+    "permissions" : [
+        "webRequestBlocking" ,
+        "webRequest" ,
+        "<all_urls>"
+    ],
+    
+    "icons" : {
+        "256" : "Resources/Logo/On.svg" ,
+        "128" : "Resources/Logo/On.svg" ,
+         "64" : "Resources/Logo/On.svg" ,
+         "48" : "Resources/Logo/On.svg" ,
+         "32" : "Resources/Logo/On.svg" ,
+         "16" : "Resources/Logo/On.svg"
+    },
+    
+    "background" : {
+        "scripts" : [
+            "Test.js"
+        ]
+    }
+}

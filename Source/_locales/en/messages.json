@@ -1,0 +1,11 @@
+{
+    "Extension_Name" : {
+        "description" : "Name of this extension" ,
+        "message" : "UserAgent"
+    },
+    
+    "Extension_Description" : {
+        "description" : "Description of this extension" ,
+        "message" : "Have your browser use the most common User Agent."
+    }
+}
